@@ -1,0 +1,48 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.vetor;
+
+/**
+ *
+ * @author 12825137452
+ */
+public class Vetor {
+
+    public static void main(String[] args) {
+       //cria um vetor de 5 inteiros
+       int[] meses = new int [12];
+       
+       //atribuir valores ao vetor
+       meses[0] = 0;
+       meses[1] = 30;
+       meses[2] = 31;
+       meses[3] = 30;
+       meses[4] = 31;
+       meses[5] = 31;
+       meses[6] = 31;
+       meses[7] = 31;
+       meses[8] = 30;
+       meses[9] = 31;
+       meses[10] = 30;
+       meses[11] = 31;
+       meses[12] = 31;
+       
+       //Imprimi os valores do retorno
+       System.out.println("Não se aplica");       
+       System.out.println("Janeiro tem:" + meses[1] + "dias");
+       System.out.println("Fevereiro tem:" + meses[2] + "dias");
+       System.out.println("Março tem:" + meses[3] + "dias");
+       System.out.println("Abril tem:" + meses[4] + "dias");
+       System.out.println("Maio tem:" + meses[5] + "dias");
+       System.out.println("Junho tem:" + meses[6] + "dias");
+       System.out.println("Julho tem:" + meses[7] + "dias");
+       System.out.println("Agosto tem:" + meses[8] + "dias");
+       System.out.println("Setembro tem:" + meses[9] + "dias");
+       System.out.println("Outubro tem:" + meses[10] + "dias");
+       System.out.println("Novembro" + meses[11] + "dias");
+       System.out.println("Dezembro tem:" + meses[12] + "dias");
+
+    }
+}

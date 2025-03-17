@@ -1,0 +1,40 @@
+cd C:\Users\12825137452\Documents\NetBeansProjects\Votacao; "JAVA_HOME=C:\\Program Files\\Java\\jdk-23" cmd /c "\"C:\\Program Files\\NetBeans-25\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.votacao.Votacao \"-Dexec.executable=C:\\Program Files\\Java\\jdk-23\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-25\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+-----------------------< com.mycompany:Votacao >------------------------
+Building Votacao 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ Votacao ---
+skip non existing resourceDirectory C:\Users\12825137452\Documents\NetBeansProjects\Votacao\src\main\resources
+
+--- compiler:3.13.0:compile (default-compile) @ Votacao ---
+Recompiling the module because of changed source code.
+Compiling 1 source file with javac [debug release 23] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ Votacao ---
+Digite sua idade
+10
+Voc� n� pode votar.
+Digite sua idade
+15
+Voc� n� pode votar.
+Digite sua idade
+16
+Seu voto � opcional
+Digite sua idade
+17
+Seu voto � opcional
+Digite sua idade
+18
+Seu voto � obrigat�rio.
+Digite sua idade
+-10
+Voc� digitou uma idade inv�lida. Tente novamente.
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  18.193 s
+Finished at: 2025-03-11T20:37:42-03:00
+------------------------------------------------------------------------
